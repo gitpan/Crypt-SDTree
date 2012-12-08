@@ -1,0 +1,61 @@
+{
+   "abstract" : "Subset Difference Encryption/Revocation Scheme",
+   "author" : [
+      "Bernhard Amann <bernhard@icsi.berkeley.edu>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "open_source"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Crypt-SDTree",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::CBuilder" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "perl" : "v5.10.1"
+         }
+      }
+   },
+   "provides" : {
+      "Crypt::SDTree" : {
+         "file" : "lib/Crypt/SDTree.pm",
+         "version" : "0.01"
+      },
+      "Crypt::SDTree::Publish" : {
+         "file" : "lib/Crypt/SDTree/Publish.pm",
+         "version" : "0.01"
+      },
+      "Crypt::SDTree::Subscribe" : {
+         "file" : "lib/Crypt/SDTree/Subscribe.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/amannb/perl-crypt-sdtree/issues"
+      },
+      "homepage" : "https://github.com/amannb/perl-crypt-sdtree",
+      "license" : [
+         "http://www.gnu.org/licenses/lgpl-2.1.html"
+      ],
+      "repository" : {
+         "url" : "git://github.com/amannb/perl-crypt-sdtree.git"
+      }
+   },
+   "version" : "0.01"
+}
