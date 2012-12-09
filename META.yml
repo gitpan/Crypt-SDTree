@@ -4,6 +4,7 @@ author:
   - 'Bernhard Amann <bernhard@icsi.berkeley.edu>'
 build_requires:
   ExtUtils::CBuilder: 0
+  ExtUtils::CppGuess: 0.07
 configure_requires:
   Module::Build: 0.40
 dynamic_config: 1
@@ -16,13 +17,13 @@ name: Crypt-SDTree
 provides:
   Crypt::SDTree:
     file: lib/Crypt/SDTree.pm
-    version: 0.01
+    version: 0.02
   Crypt::SDTree::Publish:
     file: lib/Crypt/SDTree/Publish.pm
-    version: 0.01
+    version: 0.02
   Crypt::SDTree::Subscribe:
     file: lib/Crypt/SDTree/Subscribe.pm
-    version: 0.01
+    version: 0.02
 requires:
   perl: v5.10.1
 resources:
@@ -30,4 +31,4 @@ resources:
   homepage: https://github.com/amannb/perl-crypt-sdtree
   license: http://www.gnu.org/licenses/lgpl-2.1.html
   repository: git://github.com/amannb/perl-crypt-sdtree.git
-version: 0.01
+version: 0.02
