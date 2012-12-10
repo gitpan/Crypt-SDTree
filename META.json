@@ -34,18 +34,18 @@
    "provides" : {
       "Crypt::SDTree" : {
          "file" : "lib/Crypt/SDTree.pm",
-         "version" : "0.02"
+         "version" : "0.03_01"
       },
       "Crypt::SDTree::Publish" : {
          "file" : "lib/Crypt/SDTree/Publish.pm",
-         "version" : "0.02"
+         "version" : "0.03_01"
       },
       "Crypt::SDTree::Subscribe" : {
          "file" : "lib/Crypt/SDTree/Subscribe.pm",
-         "version" : "0.02"
+         "version" : "0.03_01"
       }
    },
-   "release_status" : "stable",
+   "release_status" : "testing",
    "resources" : {
       "bugtracker" : {
          "web" : "https://github.com/amannb/perl-crypt-sdtree/issues"
@@ -58,5 +58,5 @@
          "url" : "git://github.com/amannb/perl-crypt-sdtree.git"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03_01"
 }

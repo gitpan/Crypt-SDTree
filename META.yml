@@ -17,13 +17,13 @@ name: Crypt-SDTree
 provides:
   Crypt::SDTree:
     file: lib/Crypt/SDTree.pm
-    version: 0.02
+    version: 0.03_01
   Crypt::SDTree::Publish:
     file: lib/Crypt/SDTree/Publish.pm
-    version: 0.02
+    version: 0.03_01
   Crypt::SDTree::Subscribe:
     file: lib/Crypt/SDTree/Subscribe.pm
-    version: 0.02
+    version: 0.03_01
 requires:
   perl: v5.10.1
 resources:
@@ -31,4 +31,4 @@ resources:
   homepage: https://github.com/amannb/perl-crypt-sdtree
   license: http://www.gnu.org/licenses/lgpl-2.1.html
   repository: git://github.com/amannb/perl-crypt-sdtree.git
-version: 0.02
+version: 0.03_01
