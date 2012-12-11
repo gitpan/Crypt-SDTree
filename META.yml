@@ -6,6 +6,7 @@ build_requires:
   ExtUtils::CBuilder: 0
   ExtUtils::CppGuess: 0.07
 configure_requires:
+  ExtUtils::CppGuess: 0.07
   Module::Build: 0.40
 dynamic_config: 1
 generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
@@ -17,18 +18,18 @@ name: Crypt-SDTree
 provides:
   Crypt::SDTree:
     file: lib/Crypt/SDTree.pm
-    version: 0.03_01
+    version: 0.03_02
   Crypt::SDTree::Publish:
     file: lib/Crypt/SDTree/Publish.pm
-    version: 0.03_01
+    version: 0.03_02
   Crypt::SDTree::Subscribe:
     file: lib/Crypt/SDTree/Subscribe.pm
-    version: 0.03_01
+    version: 0.03_02
 requires:
-  perl: v5.10.1
+  perl: v5.8.9
 resources:
   bugtracker: https://github.com/amannb/perl-crypt-sdtree/issues
   homepage: https://github.com/amannb/perl-crypt-sdtree
   license: http://www.gnu.org/licenses/lgpl-2.1.html
   repository: git://github.com/amannb/perl-crypt-sdtree.git
-version: 0.03_01
+version: 0.03_02
