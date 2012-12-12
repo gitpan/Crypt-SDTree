@@ -38,7 +38,7 @@ my $builder = Module::Build->new(
 		'ExtUtils::CppGuess' => 0.07,
 	},
 	requires => {
-		perl => '5.8.9',
+		perl => '5.10.1',
 	},
 	meta_merge => {
 		resources => {
